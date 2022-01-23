@@ -136,10 +136,10 @@ class BotonesDelMedioState extends State<BotonesDelMedio>{
                   duration: const Duration(milliseconds: 1000) ,)
               );
               setState(() {
-                if(_iconColorCorreo == Colors.blueAccent){
+                if(_iconColorCorreo == Colors.indigo){
                 _iconColorCorreo = Colors.black;
                 } else {
-                  _iconColorCorreo = Colors.blueAccent;
+                  _iconColorCorreo = Colors.indigo;
                 } 
               });
               
@@ -166,10 +166,10 @@ class BotonesDelMedioState extends State<BotonesDelMedio>{
                   duration: const Duration(milliseconds: 1000) ,)
               );
               setState(() {
-                if(_iconColorCel == Colors.blueAccent){
+                if(_iconColorCel == Colors.indigo){
                 _iconColorCel = Colors.black;
                 } else {
-                  _iconColorCel = Colors.blueAccent;
+                  _iconColorCel = Colors.indigo;
                 } 
               });
           },
@@ -195,10 +195,10 @@ class BotonesDelMedioState extends State<BotonesDelMedio>{
                   duration: const Duration(milliseconds: 1000) ,)
               );
               setState(() {
-                if(_iconColorRuta == Colors.blueAccent){
+                if(_iconColorRuta == Colors.indigo){
                 _iconColorRuta = Colors.black;
                 } else {
-                  _iconColorRuta = Colors.blueAccent;
+                  _iconColorRuta = Colors.indigo;
                 } 
               });
           },
